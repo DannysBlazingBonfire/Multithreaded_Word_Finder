@@ -74,7 +74,7 @@ int main()
     std::thread threads[searchThreads];
 
     //load in file
-    std::ifstream file("bible.txt");
+    std::ifstream file(""); //TextFile name HERE!
 
     if (file.is_open()) {
         std::string line;
